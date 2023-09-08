@@ -1,4 +1,4 @@
-class zeno:
+class Zeno:
     def __init__(self, distance) -> int:
         self.distance = distance
 
@@ -7,4 +7,5 @@ class zeno:
             self.distance /= 2
             print(f'the stone is {self.distance} away from the tree')
 
-zeno(20).rock() 
+
+Zeno(20).rock()
