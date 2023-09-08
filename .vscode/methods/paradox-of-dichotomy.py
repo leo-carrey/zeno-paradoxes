@@ -7,4 +7,5 @@ class Zeno:
             self.distance /= 2
             print(f'the stone is {self.distance} away from the tree')
 
-Zeno(20).rock() 
+
+Zeno(20).rock()
